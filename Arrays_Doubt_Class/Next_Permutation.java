@@ -35,7 +35,7 @@ public class Next_Permutation {
 		arr[p] = arr[q];
 		arr[q] = temp;
 
-		// 4. revese p+1 to n-1
+		// 4. reverse p+1 to n-1
 		Reverse(arr, p + 1, n - 1);
 
 	}
